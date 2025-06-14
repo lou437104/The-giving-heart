@@ -22,3 +22,15 @@ body {
     display: inline-block;
     margin-top: 10px;
   }
+
+  #game-section{
+    margin-top: 40px; ;
+  }
+
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
