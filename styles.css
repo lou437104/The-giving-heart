@@ -34,3 +34,14 @@ body {
     justify-content: center;
     margin-top: 20px;
   }
+
+  .card{
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
