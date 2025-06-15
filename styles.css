@@ -67,3 +67,13 @@ body {
     height: 100%;
     object-fit: cover;
   }
+
+  .card .back{
+    transform: rotateY(180deg);
+  }
+
+  .win-message {
+    font-size: 20px;
+    color: green;
+    margin-top: 20px;
+  }
