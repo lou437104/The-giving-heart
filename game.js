@@ -44,4 +44,19 @@ function createCard(imageSrc) {
     card.appendChild(front);
     card.appendChild(back);
     
+    card.addEventListener("click", () => {
+        if (
+            card.classList.contains("flip") || 
+            flippedCards.length === 2
+        ) return;
+
+        card.classList.add("flip");
+        flippedCards.push({ card, imageSrc });
+
+        if (flippedCards.length ===2) {
+            if (flippedCards[0].imageSrc});
+        }
+
+    })
+
 }
