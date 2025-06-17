@@ -62,14 +62,22 @@ function createCard(imageSrc) {
             }
         }else{
             setTimeout(() => {
-                flippedCards.forEach(({card}) )
-            }
-        )
+                flippedCards.forEach(({card}) => card.classList.remove("flip") );
+                flippedCards[];
+            }, 1000);
+        
+        
+        }
+        }
+        
         }
 
-            );
-        }
+    });
 
-    })
-
+    return card;
 }
+
+card.forEach( src =>{
+const card = createCard(src);
+board.appendChild(card);
+});
