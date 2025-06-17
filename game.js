@@ -54,7 +54,20 @@ function createCard(imageSrc) {
         flippedCards.push({ card, imageSrc });
 
         if (flippedCards.length ===2) {
-            if (flippedCards[0].imageSrc});
+            if (flippedCards[0].imageSrc === flippedCards[1].imageSrc) {
+                matchedCount++;
+                flippedCards =[];
+                if(matchedCount === cards.length /2 ){
+                    message.textContent = "you mathed all the logos! thank you for playing";
+            }
+        }else{
+            setTimeout(() => {
+                flippedCards.forEach(({card}) )
+            }
+        )
+        }
+
+            );
         }
 
     })
