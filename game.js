@@ -63,7 +63,7 @@ function createCard(imageSrc) {
         }else{
             setTimeout(() => {
                 flippedCards.forEach(({card}) => card.classList.remove("flip") );
-                flippedCards[];
+                flippedCards = [];
             }, 1000);
         
         
@@ -72,7 +72,7 @@ function createCard(imageSrc) {
         
         }
 
-    });
+    );
 
     return card;
 }
